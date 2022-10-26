@@ -32,14 +32,17 @@ h1 {
 }
 
 .k {
-  background-image: ("crash.png");
+  background-image:url("crash.png");
 }
 
 .l {
   background-image: url("kick.png");
 }
 
-
+.pressed{
+  text-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
 
 .drum {
   outline: none;
